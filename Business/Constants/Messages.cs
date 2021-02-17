@@ -10,5 +10,8 @@ namespace Business.Constants
         public static string ProductNameInvalid = "Ürün İsmi Geçersiz";
         public static string ProductsListed = "Ürünler Listelendi";
         public static string MaintenanceTime = "Sistemimiz Şu An Bakımda!";
+
+        public static string UnitPriceInvalid = "Ürün Fiyatı Geçersiz";
+        public static string StartWithA = "Ürünler A harfi ile başlamalı";
     }
 }
