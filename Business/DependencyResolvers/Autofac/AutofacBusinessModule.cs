@@ -29,8 +29,6 @@ namespace Business.DependencyResolvers.Autofac
 
             //builder.RegisterType<FileLogger>().As<ILogger>().SingleInstance();
 
-            builder.RegisterType<HttpContextAccessor>().As<IHttpContextAccessor>();
-
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()
